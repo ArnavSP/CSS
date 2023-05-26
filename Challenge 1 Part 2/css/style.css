@@ -1,0 +1,118 @@
+/*Importing Custom Fonts from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+/*Applying default values to the entire HTML document*/
+html{
+     font-family: 'Fira Sans', sans-serif;
+     scroll-behavior: smooth;
+}
+/*Setting a different font for the heading*/
+h1, h2, h3{
+     font-weight: 600;
+     font-family: 'Instrument Sans', sans-serif;
+}
+/*Setting a different font modifications to all the paragraph elements*/
+p{
+     font-weight: 300;
+     line-height: 20px;
+     font-family: 'DM Sans', sans-serif;
+     margin-top: 5%;
+}
+/* Layout */
+.wrapper{
+     width: 80%;
+     margin: 0 auto;
+}
+.flex{
+     display:flex;
+     gap: 32px;
+}
+#features > div{
+     flex: 1;
+}
+img{
+     max-height: 300px;
+     width: auto;
+     border: double;
+     border-width: 1vh;
+     border-color: #0fc2aa;
+}
+main section{
+     padding: 40px 0 0 0;
+}
+
+/*Table Section*/
+
+table{
+     border: solid ;
+     width: 100%;
+}
+
+th, td{
+     padding: 8px;
+     text-align: left;
+     border-bottom: 1px solid #ddd;
+}
+#playlist tbody tr:nth-child(odd) {
+     background-color: #0fc2aa;
+}
+/* Styling the navigation links as buttons */
+nav a{
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #ff5154;
+     color: white;
+     text-decoration: none;
+     border-radius: 3px;
+     margin-right: 10px;
+}
+/*Adding hover animation to the navigation buttons*/
+
+nav a:hover{
+    background-color: #0fc2aa;
+    color: #fff;
+}
+/*Styling other links on the page */
+a{
+     color: #4CAF50;
+     text-decoration: none;
+}
+/*Styling ordered and unordered lists*/
+ul, ol{
+     list-style-type: none;
+     padding-left: 0;
+     background: #ff9999;
+     border: solid;
+}
+ul li::before{
+     content: "\2022";
+     color: #900314;
+     font-weight: bold;
+     display: inline-block;
+     width: 1em;
+     margin-left: -1em;
+     background: #ffe5e5;
+     color: darkred;
+     border: solid;
+}
+ol li{
+     counter-increment: li-counter;
+}
+ol li::before{
+     content: counter(li-counter);
+     color: #900314;
+     font-weight: bold;
+     display: inline-block;
+     width: 1em;
+     margin-left: -1em;
+     margin-right: 0.5em;
+     background: #ffe5e5;
+     color: darkred;
+     border: solid;
+}
+
+/*END OF CODE*/
+
+ 
