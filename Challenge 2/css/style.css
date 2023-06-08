@@ -1,0 +1,71 @@
+/*Importing Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Center Aligning the entire body element*/
+body {
+    text-align: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(24,195,180,1) 100%);
+}
+
+/* Customizing the wrapper class according to the instructions given and additional styling like adding Google Fonts*/
+.wrapper {
+    background-color: #95d8e1;
+    width: 80vw;
+    margin: 0 auto;
+    border: solid;
+    border-width: 4vh;
+    border-color: black;
+    font-family: 'Poppins', sans-serif;
+    padding: 3%;
+}
+
+/* making every odd bullet point bold*/
+.wrapper ul li:nth-child(odd) {
+    font-weight: bold;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(91, 168, 179);
+}
+
+/* Setting the color to the one given in the instructions*/
+h1 {
+    color: #333;
+    font-size: 75px;
+}
+
+/* Setting the color to the one given in the instructions*/
+h2 {
+    color: #333;
+    padding-bottom: 1%;
+    font-size: 30px;
+}
+
+/* Setting the color to the one given in the instructions*/
+h3 {
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+
+/* Setting the color to the one given in the instructions*/
+ul {
+    color: #333;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Adding Styling to the image from my side*/
+img {
+    border: groove;
+    border-width: 1vh;
+    border-color: black;
+    filter: brightness(1.2) hue-rotate(12deg);
+    max-width: 100%;
+    height: auto;
+}
